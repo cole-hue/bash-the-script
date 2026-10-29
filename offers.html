@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Bean Boutique: discover coffee, brewing tools, events and subscriptions." name="description">
+  <title>
+   Offers & Subscriptions | Bean Boutique
+  </title>
+  <link href="css/style.css" rel="stylesheet">
+  <script defer src="js/script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="topbar">
+    Free discovery with every cup &middot; Welcome to Bean Boutique
+   </div>
+   <div class="nav-wrap">
+    <a aria-label="Bean Boutique home" class="logo" href="index.html">
+     <span class="logo-mark">
+      ●
+     </span>
+     bean
+     <span>
+      boutique.
+     </span>
+    </a>
+    <button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">
+     ☰
+     <span class="sr-only">
+      Toggle navigation
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="main-nav">
+     <a data-nav="index.html" href="index.html">
+      Home
+     </a>
+     <a data-nav="coffee.html" href="coffee.html">
+      Coffee Selection
+     </a>
+     <a data-nav="equipment.html" href="equipment.html">
+      Brewing Equipment
+     </a>
+     <a data-nav="cart.html" href="cart.html">
+      Shopping Cart
+     </a>
+     <a data-nav="events.html" href="events.html">
+      Events & Workshops
+     </a>
+     <a data-nav="offers.html" href="offers.html">
+      Offers & Subscriptions
+     </a>
+    </nav>
+    <a aria-label="Shopping cart" class="basket-link" href="cart.html">
+     Basket
+     <span id="basket-count">
+      0
+     </span>
+    </a>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-intro">
+    <p class="eyebrow">
+     MORE TO LOVE
+    </p>
+    <h1>
+     Offers & subscriptions
+    </h1>
+    <p>
+     Enjoy your coffee ritual more often. Illustrative plans; subscription payments are not active.
+    </p>
+   </section>
+   <section class="section">
+    <div class="offer-banner">
+     <h2>
+      Welcome offer: 10% off your first purchase
+     </h2>
+     <p>
+      Join the email list through the welcome popup to receive your prototype discount code.
+     </p>
+     <button class="btn" id="show-signup">
+      Get the welcome offer
+     </button>
+    </div>
+    <h2>
+     Choose your coffee rhythm
+    </h2>
+    <div class="plan-grid">
+     <article class="card plan">
+      <p class="eyebrow">
+       STARTER
+      </p>
+      <h3>
+       One bag monthly
+      </h3>
+      <p class="price">
+       KSh 1,500 / month
+      </p>
+      <p>
+       One rotating 250g bag, tasting notes and flexible preferences.
+      </p>
+      <button class="btn plan-button" data-plan="Starter">
+       Register interest
+      </button>
+     </article>
+     <article class="card plan featured">
+      <p class="eyebrow">
+       FAVOURITE
+      </p>
+      <h3>
+       Two bags monthly
+      </h3>
+      <p class="price">
+       KSh 2,850 / month
+      </p>
+      <p>
+       Two 250g bags, first access to new blends and brewing tips.
+      </p>
+      <button class="btn plan-button" data-plan="Favourite">
+       Register interest
+      </button>
+     </article>
+     <article class="card plan">
+      <p class="eyebrow">
+       EXPLORER
+      </p>
+      <h3>
+       Four bags monthly
+      </h3>
+      <p class="price">
+       KSh 5,400 / month
+      </p>
+      <p>
+       Four 250g bags, curated origins and invitations to tastings.
+      </p>
+      <button class="btn plan-button" data-plan="Explorer">
+       Register interest
+      </button>
+     </article>
+    </div>
+    <p class="small">
+     All prices, discounts and benefits are illustrative pending client approval.
+    </p>
+   </section>
+  </main>
+  <footer class="footer">
+   <div>
+    <h2>
+     bean boutique.
+    </h2>
+    <p>
+     Good coffee. Better together.
+    </p>
+    <p class="small">
+     Concept website &middot; Business details to be supplied by client.
+    </p>
+   </div>
+   <div>
+    <h3>
+     Explore
+    </h3>
+    <a href="coffee.html">
+     Coffee
+    </a>
+    <a href="equipment.html">
+     Equipment
+    </a>
+    <a href="events.html">
+     Workshops
+    </a>
+   </div>
+   <div>
+    <h3>
+     Connect
+    </h3>
+    <a href="mailto:hello@example.com">
+     Email (placeholder)
+    </a>
+    <a href="offers.html">
+     Newsletter & offers
+    </a>
+    <p class="small">
+     Original illustrations created for this prototype.
+    </p>
+   </div>
+  </footer>
+  <dialog aria-labelledby="signup-title" id="signup-modal">
+   <button aria-label="Close signup window" class="close-modal" type="button">
+    &times;
+   </button>
+   <p class="eyebrow">
+    A LITTLE SOMETHING FOR YOU
+   </p>
+   <h2 id="signup-title">
+    Your first cup comes with a perk.
+   </h2>
+   <p>
+    Sign up for our newsletter and receive a prototype 10% welcome code.
+   </p>
+   <form id="signup-form">
+    <label for="signup-email">
+     Email address
+    </label>
+    <input autocomplete="email" id="signup-email" placeholder="you@example.com" required type="email">
+    <label class="checkbox-label">
+     <input id="signup-consent" required type="checkbox">
+     I agree to receive marketing emails (demonstration only).
+    </label>
+    <button class="btn" type="submit">
+     Get my code
+    </button>
+   </form>
+   <p aria-live="polite" id="signup-result" role="status">
+   </p>
+   <p class="small">
+    Demo only: your email is not sent or stored.
+   </p>
+  </dialog>
+ </body>
+</html>
+

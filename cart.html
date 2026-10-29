@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Bean Boutique: discover coffee, brewing tools, events and subscriptions." name="description">
+  <title>
+   Shopping Cart | Bean Boutique
+  </title>
+  <link href="css/style.css" rel="stylesheet">
+  <script defer src="js/script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="topbar">
+    Free discovery with every cup &middot; Welcome to Bean Boutique
+   </div>
+   <div class="nav-wrap">
+    <a aria-label="Bean Boutique home" class="logo" href="index.html">
+     <span class="logo-mark">
+      ●
+     </span>
+     bean
+     <span>
+      boutique.
+     </span>
+    </a>
+    <button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">
+     ☰
+     <span class="sr-only">
+      Toggle navigation
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="main-nav">
+     <a data-nav="index.html" href="index.html">
+      Home
+     </a>
+     <a data-nav="coffee.html" href="coffee.html">
+      Coffee Selection
+     </a>
+     <a data-nav="equipment.html" href="equipment.html">
+      Brewing Equipment
+     </a>
+     <a data-nav="cart.html" href="cart.html">
+      Shopping Cart
+     </a>
+     <a data-nav="events.html" href="events.html">
+      Events & Workshops
+     </a>
+     <a data-nav="offers.html" href="offers.html">
+      Offers & Subscriptions
+     </a>
+    </nav>
+    <a aria-label="Shopping cart" class="basket-link" href="cart.html">
+     Basket
+     <span id="basket-count">
+      0
+     </span>
+    </a>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-intro">
+    <p class="eyebrow">
+     YOUR PICKS
+    </p>
+    <h1>
+     Shopping cart
+    </h1>
+    <p>
+     Your selections are saved in this browser for your next visit.
+    </p>
+   </section>
+   <section class="section">
+    <div aria-live="polite" id="cart-items">
+    </div>
+    <div class="cart-summary card">
+     <h2>
+      Order summary
+     </h2>
+     <p id="cart-total">
+      Subtotal: KSh 0.00
+     </p>
+     <p class="small">
+      Prototype only. Payments and order fulfilment are not yet enabled.
+     </p>
+     <button class="btn" disabled id="checkout">
+      Checkout coming soon
+     </button>
+     <a class="text-link" href="coffee.html">
+      Continue shopping &rarr;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div>
+    <h2>
+     bean boutique.
+    </h2>
+    <p>
+     Good coffee. Better together.
+    </p>
+    <p class="small">
+     Concept website &middot; Business details to be supplied by client.
+    </p>
+   </div>
+   <div>
+    <h3>
+     Explore
+    </h3>
+    <a href="coffee.html">
+     Coffee
+    </a>
+    <a href="equipment.html">
+     Equipment
+    </a>
+    <a href="events.html">
+     Workshops
+    </a>
+   </div>
+   <div>
+    <h3>
+     Connect
+    </h3>
+    <a href="mailto:hello@example.com">
+     Email (placeholder)
+    </a>
+    <a href="offers.html">
+     Newsletter & offers
+    </a>
+    <p class="small">
+     Original illustrations created for this prototype.
+    </p>
+   </div>
+  </footer>
+  <dialog aria-labelledby="signup-title" id="signup-modal">
+   <button aria-label="Close signup window" class="close-modal" type="button">
+    &times;
+   </button>
+   <p class="eyebrow">
+    A LITTLE SOMETHING FOR YOU
+   </p>
+   <h2 id="signup-title">
+    Your first cup comes with a perk.
+   </h2>
+   <p>
+    Sign up for our newsletter and receive a prototype 10% welcome code.
+   </p>
+   <form id="signup-form">
+    <label for="signup-email">
+     Email address
+    </label>
+    <input autocomplete="email" id="signup-email" placeholder="you@example.com" required type="email">
+    <label class="checkbox-label">
+     <input id="signup-consent" required type="checkbox">
+     I agree to receive marketing emails (demonstration only).
+    </label>
+    <button class="btn" type="submit">
+     Get my code
+    </button>
+   </form>
+   <p aria-live="polite" id="signup-result" role="status">
+   </p>
+   <p class="small">
+    Demo only: your email is not sent or stored.
+   </p>
+  </dialog>
+ </body>
+</html>
+

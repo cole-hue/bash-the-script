@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Bean Boutique: discover coffee, brewing tools, events and subscriptions." name="description">
+  <title>
+   Coffee Selection | Bean Boutique
+  </title>
+  <link href="css/style.css" rel="stylesheet">
+  <script defer src="js/script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="topbar">
+    Free discovery with every cup &middot; Welcome to Bean Boutique
+   </div>
+   <div class="nav-wrap">
+    <a aria-label="Bean Boutique home" class="logo" href="index.html">
+     <span class="logo-mark">
+      ●
+     </span>
+     bean
+     <span>
+      boutique.
+     </span>
+    </a>
+    <button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">
+     ☰
+     <span class="sr-only">
+      Toggle navigation
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="main-nav">
+     <a data-nav="index.html" href="index.html">
+      Home
+     </a>
+     <a data-nav="coffee.html" href="coffee.html">
+      Coffee Selection
+     </a>
+     <a data-nav="equipment.html" href="equipment.html">
+      Brewing Equipment
+     </a>
+     <a data-nav="cart.html" href="cart.html">
+      Shopping Cart
+     </a>
+     <a data-nav="events.html" href="events.html">
+      Events & Workshops
+     </a>
+     <a data-nav="offers.html" href="offers.html">
+      Offers & Subscriptions
+     </a>
+    </nav>
+    <a aria-label="Shopping cart" class="basket-link" href="cart.html">
+     Basket
+     <span id="basket-count">
+      0
+     </span>
+    </a>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-intro">
+    <p class="eyebrow">
+     FIND YOUR FLAVOUR
+    </p>
+    <h1>
+     Coffee selection
+    </h1>
+    <p>
+     Small-batch blends and expressive single-origin coffees.
+    </p>
+    <label for="coffee-search">
+     Search our coffees
+    </label>
+    <input aria-describedby="search-status" id="coffee-search" placeholder="Try chocolate, espresso or decaf&hellip;" type="search">
+    <p aria-live="polite" id="search-status" role="status">
+     Showing all 4 coffees
+    </p>
+   </section>
+   <section class="section">
+    <h2>
+     Explore the collection
+    </h2>
+    <div class="product-grid">
+     <article class="product card">
+      <img alt="Original illustration representing House Harmony" loading="lazy" src="images/beans.svg">
+      <div class="card-body">
+       <h3>
+        House Harmony
+       </h3>
+       <p>
+        Balanced signature blend, medium roast.
+       </p>
+       <p class="small">
+        Notes: cocoa, caramel, toasted nuts.
+       </p>
+       <p class="small">
+        Best brewed: espresso or cafeti&egrave;re.
+       </p>
+       <div class="card-bottom">
+        <strong>
+         KSh 1,500
+        </strong>
+        <button class="btn add-cart" data-name="House Harmony" data-price="1500">
+         Add to basket
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="product card">
+      <img alt="Original illustration representing Highland Dawn" loading="lazy" src="images/beans.svg">
+      <div class="card-body">
+       <h3>
+        Highland Dawn
+       </h3>
+       <p>
+        Bright single-origin mountain-grown coffee.
+       </p>
+       <p class="small">
+        Notes: citrus, honey, floral finish.
+       </p>
+       <p class="small">
+        Best brewed: pour-over or filter.
+       </p>
+       <div class="card-bottom">
+        <strong>
+         KSh 1,750
+        </strong>
+        <button class="btn add-cart" data-name="Highland Dawn" data-price="1750">
+         Add to basket
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="product card">
+      <img alt="Original illustration representing Midnight Velvet" loading="lazy" src="images/beans.svg">
+      <div class="card-body">
+       <h3>
+        Midnight Velvet
+       </h3>
+       <p>
+        Rich dark roast with a smooth finish.
+       </p>
+       <p class="small">
+        Notes: dark chocolate, spice.
+       </p>
+       <p class="small">
+        Best brewed: espresso or moka pot.
+       </p>
+       <div class="card-bottom">
+        <strong>
+         KSh 1,600
+        </strong>
+        <button class="btn add-cart" data-name="Midnight Velvet" data-price="1600">
+         Add to basket
+        </button>
+       </div>
+      </div>
+     </article>
+     <article class="product card">
+      <img alt="Original illustration representing Golden Decaf" loading="lazy" src="images/beans.svg">
+      <div class="card-body">
+       <h3>
+        Golden Decaf
+       </h3>
+       <p>
+        Gentle caffeine-free everyday coffee.
+       </p>
+       <p class="small">
+        Notes: biscuit, almond, milk chocolate.
+       </p>
+       <p class="small">
+        Best brewed: French press or filter.
+       </p>
+       <div class="card-bottom">
+        <strong>
+         KSh 1,450
+        </strong>
+        <button class="btn add-cart" data-name="Golden Decaf" data-price="1450">
+         Add to basket
+        </button>
+       </div>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="section subtle">
+    <h2>
+     Find us and share a cup
+    </h2>
+    <p>
+     Explore our proposed location using the interactive map, and share a coffee discovery with your friends.
+    </p>
+    <div class="widget-row">
+     <div class="card widget">
+      <h3>
+       Interactive map widget
+      </h3>
+      <iframe loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=39.690%2C-4.055%2C39.720%2C-4.025&amp;layer=mapnik&amp;marker=-4.040%2C39.705" title="OpenStreetMap showing Links Road, Nyali, Mombasa, proposed location">
+      </iframe>
+      <p class="small">
+       Proposed location: Links Road, Nyali, Mombasa, Kenya. Exact premises to be confirmed. Map &copy; OpenStreetMap contributors.
+      </p>
+     </div>
+     <div class="card widget">
+      <h3>
+       Share widget
+      </h3>
+      <p>
+       Tell someone about your favourite blend.
+      </p>
+      <button class="btn" id="share-page">
+       Share this collection
+      </button>
+      <p id="share-status" role="status">
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div>
+    <h2>
+     bean boutique.
+    </h2>
+    <p>
+     Good coffee. Better together.
+    </p>
+    <p class="small">
+     Concept website &middot; Business details to be supplied by client.
+    </p>
+   </div>
+   <div>
+    <h3>
+     Explore
+    </h3>
+    <a href="coffee.html">
+     Coffee
+    </a>
+    <a href="equipment.html">
+     Equipment
+    </a>
+    <a href="events.html">
+     Workshops
+    </a>
+   </div>
+   <div>
+    <h3>
+     Connect
+    </h3>
+    <a href="mailto:hello@example.com">
+     Email (placeholder)
+    </a>
+    <a href="offers.html">
+     Newsletter & offers
+    </a>
+    <p class="small">
+     Original illustrations created for this prototype.
+    </p>
+   </div>
+  </footer>
+  <dialog aria-labelledby="signup-title" id="signup-modal">
+   <button aria-label="Close signup window" class="close-modal" type="button">
+    &times;
+   </button>
+   <p class="eyebrow">
+    A LITTLE SOMETHING FOR YOU
+   </p>
+   <h2 id="signup-title">
+    Your first cup comes with a perk.
+   </h2>
+   <p>
+    Sign up for our newsletter and receive a prototype 10% welcome code.
+   </p>
+   <form id="signup-form">
+    <label for="signup-email">
+     Email address
+    </label>
+    <input autocomplete="email" id="signup-email" placeholder="you@example.com" required type="email">
+    <label class="checkbox-label">
+     <input id="signup-consent" required type="checkbox">
+     I agree to receive marketing emails (demonstration only).
+    </label>
+    <button class="btn" type="submit">
+     Get my code
+    </button>
+   </form>
+   <p aria-live="polite" id="signup-result" role="status">
+   </p>
+   <p class="small">
+    Demo only: your email is not sent or stored.
+   </p>
+  </dialog>
+ </body>
+</html>
+
